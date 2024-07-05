@@ -66,31 +66,15 @@ Here are some classification results using the Vision Transformer model:
     source venv/bin/activate
     ```
 
-3. Install the required packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ### Usage
 
 #### Training
 
-To train the Vision Transformer model, you can use the provided training script:
-
-```bash
-python train.py --config config.yaml
-```
-
-Modify the `config.yaml` file to set your desired training parameters, such as dataset path, batch size, learning rate, etc.
+To train the Vision Transformer model, you can use the provided training script by configuring the parameters in the script as per your dataset and requirements.
 
 #### Inference
 
-For inference, use the `inference.py` script:
-
-```bash
-python inference.py --image_path path/to/your/image.jpg --model_path path/to/your/model.pth
-```
+For inference, you can use the provided inference script to classify new images based on the trained model.
 
 ### Examples
 
@@ -99,8 +83,3 @@ Check the `examples` directory for Jupyter notebooks demonstrating how to train 
 ### Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements and fixes.
-
-
-### Contact
-
-For any questions or inquiries, please contact John Wassef at [your-email@example.com](mailto:your-email@example.com).
