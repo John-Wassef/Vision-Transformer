@@ -20,6 +20,16 @@ The dataset consists of images of three different statues:
 - **Alexander the Great Statue**
   ![Alexander the Great Statue](images/alexander.jpg)
 
+### Results
+
+Here are some classification results using the Vision Transformer model:
+- **Nefertiti Statue Classification**
+  ![Nefertiti Result](images/nefertiti_result.jpg)
+- **Tutankhamun Statue Classification**
+  ![Tutankhamun Result](images/tutankhamun_result.jpg)
+- **Alexander the Great Statue Classification**
+  ![Alexander Result](images/alexander_result.jpg)
+
 ### Table of Contents
 
 - [Features](#features)
@@ -90,9 +100,6 @@ Check the `examples` directory for Jupyter notebooks demonstrating how to train 
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements and fixes.
 
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Contact
 
